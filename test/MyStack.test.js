@@ -1,6 +1,6 @@
 import { expect, matchTemplate, MatchStyle } from "@aws-cdk/assert";
 import * as sst from "@serverless-stack/resources";
-import MyStack from "../lib/MyStack";
+import MyStack from "../lib/";
 
 test('Test Stack', () => {
   const app = new sst.App();
